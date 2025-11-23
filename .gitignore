@@ -1,0 +1,16 @@
+# Ignore ALL node_modules everywhere
+**/node_modules/
+
+# Build output folders
+**/build/
+**/dist/
+
+# Environment variables
+**/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / Editor files
+.DS_Store
