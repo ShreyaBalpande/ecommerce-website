@@ -50,46 +50,51 @@ Each module is structured independently and can be developed or deployed separat
 
 
 ## 🚀 Running the Project Locally
+
+
 1. Clone the Repository
 
 git clone https://github.com/your-username/ecommerce_website.git
 
 cd ecommerce_website
 
+
+
 2. Backend Setup
 
-cd backend
+ cd backend
 
-npm install
+ npm install
 
-Create .env file:
+- Create .env file:
 
-MONGO_URI=your-mongodb-connection-string
+ MONGO_URI=your-mongodb-connection-string
 
-JWT_SECRET=your-secret-key
+ JWT_SECRET=your-secret-key
 
-PORT=5000
+ PORT=5000
 
-Start the backend:
+- Start the backend:
 
-npm start
+ npm start
 
 
 3. Frontend Setup
 
-cd ../frontend
+ cd ../frontend
 
-npm install
+ npm install
 
-npm start
+ npm start
+ 
 
 4. Admin Panel Setup
 
-cd ../admin
+ cd ../admin
 
-npm install
+ npm install
 
-npm start
+ npm start
 
 * Your application will now run on multiple local ports:
 
