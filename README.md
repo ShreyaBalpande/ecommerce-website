@@ -47,3 +47,74 @@ This repository represents a scalable and production-ready ecommerce solution de
    README.md
 
 Each module is structured independently and can be developed or deployed separately.
+
+
+## 🚀 Running the Project Locally
+1. Clone the Repository
+
+git clone https://github.com/your-username/ecommerce_website.git
+
+cd ecommerce_website
+
+2. Backend Setup
+
+cd backend
+
+npm install
+
+Create .env file:
+
+MONGO_URI=your-mongodb-connection-string
+
+JWT_SECRET=your-secret-key
+
+PORT=5000
+
+Start the backend:
+
+npm start
+
+
+3. Frontend Setup
+
+cd ../frontend
+
+npm install
+
+npm start
+
+4. Admin Panel Setup
+
+cd ../admin
+
+npm install
+
+npm start
+
+* Your application will now run on multiple local ports:
+
+- Frontend: http://localhost:3000
+- Admin Panel: http://localhost:3001
+- Backend API: http://localhost:5000
+
+## 🌐 Deployment
+
+This project supports cloud deployment using AWS services such as:
+
+- S3 Static Website Hosting
+- CodePipeline + CodeBuild (CI/CD)
+- CloudFront for CDN
+- MongoDB Atlas for Production Database
+
+## 📄 License
+
+This project is released under the MIT License, allowing free personal and commercial use.
+
+## 🤝 Contributions
+
+- Contributions, issues, and feature requests are always welcome.
+- Feel free to open a pull request or suggest improvements.
+
+
+
+
