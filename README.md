@@ -37,9 +37,13 @@ This repository represents a scalable and production-ready ecommerce solution de
 ## 📁 Project Structure
 
 /ecommerce-website
+
    /admin        → Admin dashboard (React)
+   
    /frontend     → User storefront (React)
+   
    /backend      → REST API (Node.js + MongoDB)
+   
    README.md
 
 Each module is structured independently and can be developed or deployed separately.
