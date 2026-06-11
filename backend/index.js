@@ -14,12 +14,12 @@ app.use(cors());
 // Database Connection with mongodb
 
 mongoose.connect(
-      "mongodb+srv://shreya123:8EPZODtpagKWSeuN@cluster0.tjec3uc.mongodb.net/ecommerce_website?retryWrites=true&w=majority"
+      "mongodb://shreya123:pn6w8utyQq7PZpOm@ac-ox0l9ad-shard-00-00.tjec3uc.mongodb.net:27017,ac-ox0l9ad-shard-00-01.tjec3uc.mongodb.net:27017,ac-ox0l9ad-shard-00-02.tjec3uc.mongodb.net:27017/?ssl=true&replicaSet=atlas-a9qh7d-shard-0&authSource=admin&appName=Cluster0"
 );
 
 //API Creation
 
-app.get("/", (req, res) => {
+app.get("/", (req, res) => {                             
   res.send("Express App is Running");
 });
 

@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { ShopContext } from "../../Context/ShopContext";
 import { FaCircleChevronDown } from "react-icons/fa6";
 
+
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
   const { getTotalCartItems } = useContext(ShopContext);
